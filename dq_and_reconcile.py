@@ -22,7 +22,9 @@ def main() -> None:
     os.makedirs("output", exist_ok=True)
 
     # Connect to a local SQLite database file
-    con = sqlite3.connect("obie_finance.db")
+    # con = sqlite3.connect("obie_finance.db")
+    con = sqlite3.connect(":memory:")
+
 
     # Load base data
     policies = pd.read_csv("data/policies.csv")
