@@ -102,7 +102,7 @@ st.divider()
 
 # SIDEBAR 
 st.sidebar.header("ℹ️ About")
-# st.sidebar.info("Use the filters within each tab to analyze specific segments of your data.")
+
 st.sidebar.info("""
 **Premium Reconciliation Monitor**
 
