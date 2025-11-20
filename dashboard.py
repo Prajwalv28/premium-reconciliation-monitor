@@ -1,4 +1,4 @@
-import streamlit as st
+import dashboard as st
 import pandas as pd
 import numpy as np
 import plotly.graph_objects as go
@@ -104,7 +104,7 @@ st.divider()
 st.sidebar.header("ℹ️ About")
 # st.sidebar.info("Use the filters within each tab to analyze specific segments of your data.")
 st.sidebar.info("""
-** Premium Reconciliation Monitor**
+**Premium Reconciliation Monitor**
 
 This dashboard helps you:
 
