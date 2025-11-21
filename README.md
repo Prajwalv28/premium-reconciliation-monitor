@@ -286,7 +286,7 @@ This simulates a new day’s data landing in the warehouse and allows quick test
 
 ---
 
-## 6. How this maps to a Data Analyst role at Obie
+## 6. How this maps to a Data Analyst role 
 
 This project demonstrates that I can:
 
@@ -305,26 +305,9 @@ This project demonstrates that I can:
 - **Communicate clearly with non-technical stakeholders**  
   Frame metrics and visuals in business language (variance, loss ratio, missing in GL, large difference) rather than just technical jargon.
 
---
-
-## 7. Running the project
-
-```bash
-# 1. Install dependencies
-pip install -r requirements.txt
-
-# 2. Generate synthetic data
-python generate_data.py
-
-# 3. Run data quality checks and reconciliation
-python dq_and_reconcile.py
-
-# 4. Launch the dashboard
-streamlit run dashboard.py
-
 ---
 
-## 8. What I would differently
+## 7. What I would differently
 
 1. Database Infrastructure 
 
@@ -365,4 +348,25 @@ Current System Performance:
 - 100K+ policies: CSV parsing becomes bottleneck (>10 seconds)
 - 50K+ DQ issues: Streamlit dataframe rendering slows significantly
 - State expansion (50+ states): Grouped bar chart becomes illegible
+
+---
+
+## 8. Running the project
+
+```bash
+# 1. Install dependencies
+pip install -r requirements.txt
+
+# 2. Generate synthetic data
+python generate_data.py
+
+# 3. Run data quality checks and reconciliation
+python dq_and_reconcile.py
+
+# 4. Launch the dashboard
+streamlit run dashboard.py
+
+---
+
+
 
