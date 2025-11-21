@@ -365,3 +365,15 @@ python dq_and_reconcile.py
 
 # 4. Launch the dashboard
 streamlit run dashboard.py
+```
+
+---
+
+## 🧑‍💻 Author
+
+**Prajwal Venkat**  
+💼 Data Analyst | Data Scientist 
+
+📧 prajwalvenkatv@gmail.com
+Find me on [LinkedIn](https://www.linkedin.com/in/prajwal-venkat-v-9654a5180)
+[Portfolio](https://prajwalvenkat.vercel.app)
